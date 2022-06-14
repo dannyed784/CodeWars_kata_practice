@@ -1,0 +1,27 @@
+1)kata1
+Complete the solution so that it reverse the string passed into it. 
+'world' => 'dlrow'
+'word' => 'drow'
+
+2)kata2
+We need a function that can transform a string into a number. What ways of achieving this do you know?
+
+Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
+
+Examples:
+
+"1234" --> 1234
+"605"  --> 605
+"1405" --> 1405
+"-7" --> -7
+
+3)kata3
+contar las ovejas de un array cada oveja es un true y un false es alguno oveja perdida
+ejemplo:
+array = [false,true,false,true,true,true,true];  //input
+numero de ovejas = 5  (porque son 5 trues) // output
+
+4)kata4
+Given a non-empty array of integers, return the result of multiplying the values together in order.
+Example:
+[1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
