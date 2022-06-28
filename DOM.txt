@@ -1,0 +1,32 @@
+***Element.insertAdjacentHTML()***
+
+El metodo insertAdjacentHTML() de la interfaz "element" analiza la cadena de texto introducida como 
+cadena HTML o XML e inserta al arbol DOM los nodos resultantes de dicho analisis en la posicion especificada.
+
+sintaxis:
+element.insertAdjacentHTML(posicion,texto);
+
+posición
+Un DOMString que representa la posición relativa al elemento, y deberá ser una de las siguientes cadenas:
+'beforebegin': Antes que el propio elemento.
+'afterbegin': Justo dentro del elemento, antes de su primer elemento hijo.
+'beforeend': Justo dentro del elemento, después de su último elemento hijo.
+'afterend': Después del propio elemento.
+
+Visualizacion de las posiciones
+<!-- beforebegin -->
+<p>
+  <!-- afterbegin -->
+  foo
+  <!-- beforeend -->
+</p>
+<!-- afterend -->
+
+Ejemplo
+// <div id="one">one</div>
+var d1 = document.getElementById('one');
+d1.insertAdjacentHTML('afterend', '<div id="two">two</div>');
+
+// En este punto, la nueva estructura es:
+// <div id="one">one</div><div id="two">two</div>
+

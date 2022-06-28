@@ -1,0 +1,33 @@
+string.split() --> return an array
+
+string.charAt(characterNumber) --> return a newString example: 'Daniel'.chartAt(0) --> 'D' 
+
+array.join() --> return an string
+
+array.reverse() (reverse the elements of the array) --> return an array
+
+array.forEach(function callback(currentValue,index,array){
+    //iterator
+}[,thisArg]);
+
+array.map() --> return a newArray 
+Sintaxis:
+var newArray = arr.map(function callback(currentValue,index,array){
+    //elemento devuelto de nuevo_array
+}[,thisArg]);
+
+Array.reduce(callback(acumuladorr,valorActual)=>{
+    //utilizar los argumentos acumulador y valorActual
+},InicialValue)
+
+Array.forEach()
+el metodo forEach ejecuta la funcion indicada una vez por cada elemento del array
+
+Sintaxis
+arr.forEach(function callback(currentValue, index, array) {
+    // tu iterador
+}[, thisArg]);
+
+Array.indexOf()
+El metodo indexOf() retorna el primer indice en el que se puede encontrar un elemento dado en el 
+array o retorna -1 si el elemento no esta presente. 
